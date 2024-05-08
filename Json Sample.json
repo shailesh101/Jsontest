@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Opportunity 1",
+        "amount": 10000,
+        "account_id": "001XXXXXXXXXXXX",
+        "quotes": [
+            {
+                "name": "Quote 1",
+                "amount": 5000
+            },
+            {
+                "name": "Quote 2",
+                "amount": 5000
+            }
+        ]
+    },
+    {
+        "name": "Opportunity 2",
+        "amount": 15000,
+        "account_id": "001YYYYYYYYYYYY",
+        "quotes": [
+            {
+                "name": "Quote 3",
+                "amount": 7500
+            },
+            {
+                "name": "Quote 4",
+                "amount": 7500
+            }
+        ]
+    }
+]
