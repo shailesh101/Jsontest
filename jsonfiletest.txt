@@ -1,0 +1,68 @@
+In this JSON format:
+
+Each object represents an opportunity, containing fields such as name, amount, and quotes.
+Opportunities may have associated quotes, which are represented as an array of objects under the quotes field.
+Each quote object contains fields such as name, amount, and products.
+Associated products are represented as an array of objects under the products field.
+Each product object contains fields such as unitPrice, quantity, and productId.
+The code provided earlier iterates over each opportunity in this JSON response, creates Opportunity and FPX Quote records in Salesforce, and assigns products under each quote. Adjust the field names and relationships as per your Salesforce schema.
+______________________________________________________________________________________________
+
+
+[
+    {
+        "name": "Opportunity 1",
+        "amount": 10000,
+        "quotes": [
+            {
+                "name": "Quote 1",
+                "amount": 5000,
+                "products": [
+                    {
+                        "unitPrice": 100,
+                        "quantity": 2,
+                        "productId": "001XXXXXXXXXXXX"
+                    },
+                    {
+                        "unitPrice": 200,
+                        "quantity": 1,
+                        "productId": "002XXXXXXXXXXXX"
+                    }
+                ]
+            },
+            {
+                "name": "Quote 2",
+                "amount": 5000,
+                "products": [
+                    {
+                        "unitPrice": 150,
+                        "quantity": 3,
+                        "productId": "003XXXXXXXXXXXX"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Opportunity 2",
+        "amount": 15000,
+        "quotes": [
+            {
+                "name": "Quote 3",
+                "amount": 7500,
+                "products": [
+                    {
+                        "unitPrice": 120,
+                        "quantity": 4,
+                        "productId": "004XXXXXXXXXXXX"
+                    },
+                    {
+                        "unitPrice": 180,
+                        "quantity": 2,
+                        "productId": "005XXXXXXXXXXXX"
+                    }
+                ]
+            }
+        ]
+    }
+]
