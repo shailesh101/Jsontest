@@ -2,30 +2,55 @@
     {
         "name": "Opportunity 1",
         "amount": 10000,
-        "account_id": "001XXXXXXXXXXXX",
         "quotes": [
             {
                 "name": "Quote 1",
-                "amount": 5000
+                "amount": 5000,
+                "products": [
+                    {
+                        "unitPrice": 100,
+                        "quantity": 2,
+                        "productId": "001XXXXXXXXXXXX"
+                    },
+                    {
+                        "unitPrice": 200,
+                        "quantity": 1,
+                        "productId": "002XXXXXXXXXXXX"
+                    }
+                ]
             },
             {
                 "name": "Quote 2",
-                "amount": 5000
+                "amount": 5000,
+                "products": [
+                    {
+                        "unitPrice": 150,
+                        "quantity": 3,
+                        "productId": "003XXXXXXXXXXXX"
+                    }
+                ]
             }
         ]
     },
     {
         "name": "Opportunity 2",
         "amount": 15000,
-        "account_id": "001YYYYYYYYYYYY",
         "quotes": [
             {
                 "name": "Quote 3",
-                "amount": 7500
-            },
-            {
-                "name": "Quote 4",
-                "amount": 7500
+                "amount": 7500,
+                "products": [
+                    {
+                        "unitPrice": 120,
+                        "quantity": 4,
+                        "productId": "004XXXXXXXXXXXX"
+                    },
+                    {
+                        "unitPrice": 180,
+                        "quantity": 2,
+                        "productId": "005XXXXXXXXXXXX"
+                    }
+                ]
             }
         ]
     }
