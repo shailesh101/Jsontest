@@ -10,11 +10,11 @@
         "quotes": [
             {
                 "name": "Quote 1",
-                "OpportunityName": "testbatch"
+                
             },
             {
                 "name": "Quote 2",
-                "OpportunityName": "testbatch"
+                
             }
         ]
     },
@@ -29,7 +29,7 @@
         "quotes": [
             {
                 "name": "Quote 3",
-                "OpportunityName": "testbatch"
+                
             }
         ]
     }
