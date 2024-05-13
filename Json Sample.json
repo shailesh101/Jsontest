@@ -1,36 +1,477 @@
-[
-    {
-        "name": "Opportunity 1",
-        "AccountName": "0016u00000crDNnAAM",
-        "DirectIndirect": "Direct",
-        "StageName": "Business Development",
-        "Type": "Existing Account",
-        "ForecastCategoryName": "Pipeline",
-        "CloseDate": "8/04/2024",
-        "quotes": [
-            {
-                "name": "Quote 1"
-                
+{
+    "size": 3,
+    "records": [
+        {
+            "AccountId": "0ca00001f1kosdjw",
+            "ExternalId": "0066u000006dMfPAAU",
+            "Quotes": {
+                "size": 2,
+                "records": [
+                    {
+                        "QuoteLines": {
+                            "size": 2,
+                            "records": [
+                                {
+                                    "Id": "07a000012a6iyt4n",
+                                    "QuoteLineEntries": {
+                                        "size": 1,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iyt4o",
+                                                "Name": "SS_Brand"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "B12/3"
+                                },
+                                {
+                                    "Id": "07a000012a6iyto5",
+                                    "QuoteLineEntries": {
+                                        "size": 4,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iyto6",
+                                                "Name": "SS_Brand"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyto8",
+                                                "Name": "W2FSN2_Acc_RemoteControl"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iytoa",
+                                                "Name": "W2FSN2_Acc_DFSEdgeGateway"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iytoc",
+                                                "Name": "W2FSN2_Acc_DFSEdgePowerCord_NA"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "Site Accessory Kit"
+                                }
+                            ],
+                            "done": true
+                        },
+                        "Id": "03a000012a6iyt4b",
+                        "Name": "Test 6/28 TimC"
+                    },
+                    {
+                        "QuoteLines": {
+                            "size": 1,
+                            "records": [
+                                {
+                                    "Id": "07a000012a6iz3hd",
+                                    "QuoteLineEntries": {
+                                        "size": 1,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iz3he",
+                                                "Name": "SS_Brand"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "B12/3"
+                                }
+                            ],
+                            "done": true
+                        },
+                        "Id": "03a000012a6iz3h1",
+                        "Name": "TimC Test Quote 2"
+                    }
+                ],
+                "done": true
             },
-            {
-                "name": "Quote 2"
-                
-            }
-        ]
-    },
-    {
-        "name": "Opportunity 2",
-        "AccountName": "0016u00000crDNnAAM",
-        "DirectIndirect": "Direct",
-        "StageName": "Business Development",
-        "Type": "Existing Account",
-        "ForecastCategoryName": "Pipeline",
-        "CloseDate": "8/04/2024",
-        "quotes": [
-            {
-                "name": "Quote 3"
-                
-            }
-        ]
-    }
-]
+            "Id": "08a000012a6iyt43",
+            "Name": "TimC Test 1 6/28/2022"
+        },
+        {
+            "AccountId": "0ca0007ek8143kvq",
+            "ExternalId": null,
+            "Quotes": {
+                "size": 2,
+                "records": [
+                    {
+                        "QuoteLines": {
+                            "size": 3,
+                            "records": [
+                                {
+                                    "Id": "07a000012a6iyxq2",
+                                    "QuoteLineEntries": {
+                                        "size": 12,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iyxqb",
+                                                "Name": "SS_Brand"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqc",
+                                                "Name": "Brand1"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqd",
+                                                "Name": "Livery1"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqe",
+                                                "Name": "FuelGrade16"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqf",
+                                                "Name": "FuelGrade22"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqg",
+                                                "Name": "FuelGrade31"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqh",
+                                                "Name": "FuelGrade41"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqi",
+                                                "Name": "FuelGrade51"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqj",
+                                                "Name": "FuelGrade61"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqk",
+                                                "Name": "FuelGrade71"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxql",
+                                                "Name": "FuelGrade81"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxqm",
+                                                "Name": "PageCostA"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "Wayne 4-8-4"
+                                },
+                                {
+                                    "Id": "07a000012a6iyxq5",
+                                    "QuoteLineEntries": {
+                                        "size": 5,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iyxza",
+                                                "Name": "SS_Brand"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxzb",
+                                                "Name": "Brand1"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxzc",
+                                                "Name": "Livery1"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxzd",
+                                                "Name": "FuelGrade16"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyxze",
+                                                "Name": "PageCostA"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "Wayne 1-1-1"
+                                },
+                                {
+                                    "Id": "07a000012a6iyxq8",
+                                    "QuoteLineEntries": {
+                                        "size": 15,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iyy5k",
+                                                "Name": "SS_Brand"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5l",
+                                                "Name": "SCR_Input"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5m",
+                                                "Name": "Brand1"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5n",
+                                                "Name": "FuelGrade15"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5o",
+                                                "Name": "FuelGrade21"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5p",
+                                                "Name": "FuelGrade31"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5q",
+                                                "Name": "FuelGrade41"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5r",
+                                                "Name": "FuelGrade51"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5s",
+                                                "Name": "FuelGrade61"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5t",
+                                                "Name": "FuelGrade71"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5u",
+                                                "Name": "FuelGrade81"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5v",
+                                                "Name": "FuelGrade91"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5w",
+                                                "Name": "FuelGrade101"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5x",
+                                                "Name": "PageCostA"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyy5y",
+                                                "Name": "Livery2"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "Wayne 5-10-5"
+                                }
+                            ],
+                            "done": true
+                        },
+                        "Id": "03a000012a6iywyq",
+                        "Name": "EJO"
+                    },
+                    {
+                        "QuoteLines": {
+                            "size": 2,
+                            "records": [
+                                {
+                                    "Id": "07a000012a6iyyv6",
+                                    "QuoteLineEntries": {
+                                        "size": 6,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iyyvc",
+                                                "Name": "SS_Brand"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyyvd",
+                                                "Name": "SCR_Input"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyyve",
+                                                "Name": "Brand1"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyyvf",
+                                                "Name": "Livery1"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyyvg",
+                                                "Name": "FuelGrade16"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyyvh",
+                                                "Name": "PageCostA"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "Wayne 1-1-1"
+                                },
+                                {
+                                    "Id": "07a000012a6iyyv9",
+                                    "QuoteLineEntries": {
+                                        "size": 9,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iyz1e",
+                                                "Name": "SS_Brand"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyz1f",
+                                                "Name": "SCR_Input"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyz1g",
+                                                "Name": "Brand1"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyz1h",
+                                                "Name": "Livery1"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyz1i",
+                                                "Name": "FuelGrade16"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyz1j",
+                                                "Name": "FuelGrade31"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyz1k",
+                                                "Name": "FuelGrade51"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyz1l",
+                                                "Name": "FuelGrade71"
+                                            },
+                                            {
+                                                "Id": "06a000012a6iyz1m",
+                                                "Name": "PageCostA"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "Wayne 4-4-4"
+                                }
+                            ],
+                            "done": true
+                        },
+                        "Id": "03a000012a6iyyh6",
+                        "Name": "Eva Jönsson"
+                    }
+                ],
+                "done": true
+            },
+            "Id": "08a000012a6iywyp",
+            "Name": "Test FPX sharing"
+        },
+        {
+            "AccountId": "0ca00001f1kosdjw",
+            "ExternalId": null,
+            "Quotes": {
+                "size": 2,
+                "records": [
+                    {
+                        "QuoteLines": {
+                            "size": 0,
+                            "records": [],
+                            "done": true
+                        },
+                        "Id": "03a000012a6iz1dm",
+                        "Name": "kent test"
+                    },
+                    {
+                        "QuoteLines": {
+                            "size": 6,
+                            "records": [
+                                {
+                                    "Id": "07a000012a6iz416",
+                                    "QuoteLineEntries": {
+                                        "size": 1,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iz417",
+                                                "Name": "SS_Brand"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "B12/3"
+                                },
+                                {
+                                    "Id": "07a000012a6iz4lj",
+                                    "QuoteLineEntries": {
+                                        "size": 1,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iz4lk",
+                                                "Name": "SS_Brand"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "B12/3"
+                                },
+                                {
+                                    "Id": "07a000012a6iz545",
+                                    "QuoteLineEntries": {
+                                        "size": 1,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iz546",
+                                                "Name": "SS_Brand"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "B12/3"
+                                },
+                                {
+                                    "Id": "07a000012a6iz5mn",
+                                    "QuoteLineEntries": {
+                                        "size": 1,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iz5mo",
+                                                "Name": "SS_Brand"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "B12/3"
+                                },
+                                {
+                                    "Id": "07a000012a6iz65d",
+                                    "QuoteLineEntries": {
+                                        "size": 1,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iz65e",
+                                                "Name": "SS_Brand"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "B12/3"
+                                },
+                                {
+                                    "Id": "07a000012a6iz6o3",
+                                    "QuoteLineEntries": {
+                                        "size": 1,
+                                        "records": [
+                                            {
+                                                "Id": "06a000012a6iz6o4",
+                                                "Name": "SS_Brand"
+                                            }
+                                        ],
+                                        "done": true
+                                    },
+                                    "Name": "B12/3"
+                                }
+                            ],
+                            "done": true
+                        },
+                        "Id": "03a000012a6iz40u",
+                        "Name": "TimC Test Quote 1"
+                    }
+                ],
+                "done": true
+            },
+            "Id": "08a000012a6iz40l",
+            "Name": "TimC Test 2 10/6/2022"
+        }
+    ],
+    "done": true
+}
