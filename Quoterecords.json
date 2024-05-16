@@ -1,0 +1,36 @@
+{
+    "size": 2,
+    "records": [
+        {
+            "AccountId": "0ca00001f1koq1ce",
+            "Description": "Test Description",
+            "PrimaryQuote_TotalAmount": 87170.2,
+            "Master_Customer_Number__c": "118075-WBP",
+            "ExternalId": "006O300000EF1IHIA1",
+            "Install_Country__c": "BR",
+            "Bill_To_Address_Number__c": "807465",
+            "Brand__c": null,
+            "CurrencyIsoCode": "BRL",
+            "Install_State__c": "SP",
+            "Name": "LP-1947 New validation",
+            "Bill_To_Customer_Number__c": null,
+            "Id": "08a00009kjmn8tmg"
+        },
+        {
+            "AccountId": "0ca00001f1kou9gp",
+            "Description": "Test Description2",
+            "PrimaryQuote_TotalAmount": 9895.56,
+            "Master_Customer_Number__c": "118093-WBP",
+            "ExternalId": "006O300000EHxZuIAL",
+            "Install_Country__c": "ZA",
+            "Bill_To_Address_Number__c": "807501",
+            "Brand__c": null,
+            "CurrencyIsoCode": "USD",
+            "Install_State__c": "",
+            "Name": "test turkey kit",
+            "Bill_To_Customer_Number__c": null,
+            "Id": "08a00009kjmn8vbq"
+        }
+    ],
+    "done": true
+}
