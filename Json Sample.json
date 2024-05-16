@@ -18,7 +18,7 @@
         },
         {
             "AccountId": "0ca00001f1kou9gp",
-            "Description": null,
+            "Description": "Test Description2",
             "PrimaryQuote_TotalAmount": 9895.56,
             "Master_Customer_Number__c": "118093-WBP",
             "ExternalId": "006O300000EHxZuIAL",
