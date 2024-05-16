@@ -3,11 +3,11 @@
     "records": [
         {
             "AccountId": "0ca00001f1koq1ce",
-            "Description": null,
+            "Description": "Test Description",
             "PrimaryQuote_TotalAmount": 87170.2,
             "Master_Customer_Number__c": "118075-WBP",
             "ExternalId": "006O300000EF1IHIA1",
-            "Install_Country__c": "IN",
+            "Install_Country__c": "BR",
             "Bill_To_Address_Number__c": "807465",
             "Brand__c": null,
             "CurrencyIsoCode": "BRL",
